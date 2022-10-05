@@ -1,0 +1,126 @@
+body{
+	margin:  0;
+	padding:  0;
+	background: url(backgroundimage.jpg) no-repeat;
+	background-size: cover;
+}
+.box{
+	
+	width:  1000px;
+	height: 250px;
+
+	
+	
+	
+	background: rgba(0,0,0,0.4);
+	float: Center;
+  	position: relative;
+	padding: 40px;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	right: 101px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+	right: 5px;
+	
+
+}
+.box-skills{
+	width:  1000px;
+	height: 300px;
+	background: rgba(0,0,0,0.4);
+	float: Center;
+	position: relative;
+	width: 100%;
+	 
+	top: -320px;
+	
+	
+	
+	
+	
+  	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 25%;
+	margin-bottom: 0%;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+	
+
+}
+.box-img{
+	background: url(profilepic) no-repeat;
+
+	border-radius: 40%;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.box h1{
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+.box h5{
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.box p{
+	text-align: justify;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.box li {
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+}
+.box li a{
+	color: white;
+	text-decoration: none;
+	font-size: 60px;
+
+}
+
+
+.box-skills h1{
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.box-skills h5{
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.box-skills p{
+	text-align: justify;
+}
+
+
+.box-skills li {
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+}
+.box-skills li a{
+	color: white;
+	text-decoration: none;
+	font-size: 60px;
+
+}
+html {
+    min-height: 100%;
+    overflow-y: hidden;
+}    
+body {
+     min-height: 100%;
+}
