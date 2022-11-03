@@ -5,8 +5,6 @@ from psycopg2 import pool
 from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
 
-# from logic import BOUGHT, SOLD
-# from logic import format_db_row_to_transaction
 
 
 
@@ -21,7 +19,7 @@ app.config['postgreSQL_pool'] = postgreSQL_pool
 
 @app.route("/")
 def health_check():
-    return "I am healthy!!"
+    return "Database is up and running!!"
 
 
 app.run(debug=True, port=5000)
