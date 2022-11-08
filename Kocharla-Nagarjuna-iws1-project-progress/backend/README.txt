@@ -1,8 +1,8 @@
 Name - Nagarjuna Kocharla
 
-Quick details of this week IWS1 51302022 project progress
+Quick details of week2 IWS1 51302022 project progress
 
-I made the following progress this week (brief summary): *
+I made the following progress in week 2 (brief summary): *
 
 After setting up the database infrastructure last week using docker compose and PostgreSQL. We have starting developing the initial phase of our web app. After discussing with my group members, I have decided to build the backend infrastructure of the app. While we would be cross functional and work on all aspects of the app, for now I started with backend. As mentioned in the project proposal, we would be using the flask framework for the server-side code. After referring to the flask and PostgreSQL documentation for syntax. I wrote two API end points in the server-side code.
 
