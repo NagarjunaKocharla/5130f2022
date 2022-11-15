@@ -2,20 +2,28 @@ Name - Nagarjuna Kocharla
 
 Quick details of week2 IWS1 51302022 project progress
 
-I made the following progress in week 2 (brief summary): *
+I made the following progress in week 3 (brief summary): *
 
-After setting up the database infrastructure last week using docker compose and PostgreSQL. We have starting developing the initial phase of our web app. After discussing with my group members, I have decided to build the backend infrastructure of the app. While we would be cross functional and work on all aspects of the app, for now I started with backend. As mentioned in the project proposal, we would be using the flask framework for the server-side code. After referring to the flask and PostgreSQL documentation for syntax. I wrote two API end points in the server-side code.
+After creating the post and get api endpoint basic outline last week, i further continued my work on the backend logic. In the POST endpoint for adding transactions, i wrote a function to prevent adding a sell transaction that is worth more in value than the total portfolio of the user. Even if a user is unlikely to make such a mistake it makes sense to have a check in place just in case. I did this by quering the database for the total net value of the porfolio and no of coins. And using an if block, compared the coins and value currently being added using the post endpoint to the total value.
 
-1.	Add Transaction: - this is a POST endpoint, so it would be responsible for adding a crypto transaction made, the user will be able to enter the crypto name, symbol, value in USD, purchase price and the transaction would be saved in the PostgreSQL db.
-2.	Get Transaction: - this is a GET endpoint, so it would allow users to see their added transactions.
-Both the newly created endpoints were tested using Insomnia API tester. 
+I also wrote another endpoint for getting the details of each cryptocurrency coin coinwise, this get endpoint would give 1. symbol of the coin ETH,BTC,XRP etc 2. Number of coins for any given symbol 3. Total value of the investment into that coin 4. Total Equity of investment into that coin. This endpoint is important to display visualization of the users investments, with interactive piecharts of investment distribution and other graphs.
 
-Server.py was modified with 2 endpoints added and backend_logic.py was created and added
+the two endpoints were tested using Insomnia API Tester
+
+The two endpoints are in server.py file https://github.com/NagarjunaKocharla/5130f2022/blob/main/Kocharla-Nagarjuna-iws1-project-progress/backend/server.py
+
+
+
 
 
 GitHub link to one thing I am most proud of that I accomplished this week: Why are you most proud of this?
 
-https://github.com/NagarjunaKocharla/5130f2022/blob/main/Kocharla-Nagarjuna-iws1-project-progress/backend/backend_logic.py
+https://github.com/NagarjunaKocharla/5130f2022/blob/main/Kocharla-Nagarjuna-iws1-project-progress/backend/server.py
 
-The one thing I am most proud of for this week progress is writing the backend_logic.py file for displaying transactions added by the user. Initially I assumed the endpoint for adding and seeing transactions would be easy, but Jsons data format made it challenging. For instance, I had to write a separate piece of code for converting json request entries into database transactions and in doing so had to plug and play with different types of datetime objects to see what works, after trying isoformat, timestamp and other formats I went with strptime and later formatted the added timestamp using strftime.
-Another thing I am proud of is that we made progress in selecting a machine learning model for our portfolio analysis feature, we had a meeting to discuss the pros and cons of regression models, we shortlisted two algorithms to choose from, Long-Short term memory and random Forrest regression. Sahithi, my groupmate is testing both models on sample data for bitcoin to measure the accuracy.
+I am super proud of the two endpoints i wrote for this weeks progress. For the post endpoint, Since this is the first time for me using POSTGRESQL, i struggled initially to connect the json data from the server.py functions to the database using sql queires but as i started to read more about postgres, it all made sense and managed to write the functions, and implement a check to prevent invalid transactions(in the post transaction endpoint)
+
+I am also happy that i am almost done developing the get_coin_details endpoint, as this gives us the information we need to generate visualization of transactions and to start building the portfolio analysis feature for the User.
+
+
+
+
