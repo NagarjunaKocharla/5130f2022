@@ -1,6 +1,6 @@
 Name - Nagarjuna Kocharla
 
-Quick details of week2 IWS1 51302022 project progress
+Quick details of week 4 IWS1 51302022 project progress
 
 I made the following progress in week 4 (brief summary): *
 
