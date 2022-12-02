@@ -15,6 +15,17 @@ Now in the backend directory, please run python server.py
 
 The backend code sould be up and running
 
+## Steps to run the frontend
+Please go to the frontend directory and run npm start,it'll get start in locahost or open http://localhost:3000 to view it in your browser.
+
+npm start
+The app can be deployed to production using the command npn run build, but for testing npm start is sufficient
+
+To learn React, check out the React documentation.
+
+Deployment
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
 # Distribution of work
 
 Group members
