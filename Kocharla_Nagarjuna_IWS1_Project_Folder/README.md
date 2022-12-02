@@ -4,6 +4,17 @@
 
 Note - please go to backend, and run the backend code first before running the frontend for the app to connect to the database properly, thank you
 
+## Steps to run/build app
+
+## Steps to run backend/server code
+To run the backend code successfully, please make sure docker desktop link - https://www.docker.com/products/docker-desktop/ is avaiable in your computer docker is installed link - https://docs.docker.com/desktop/install/windows-install/.
+
+Once, this is done please do to backend directory and run docker compose up -d
+
+Now in the backend directory, please run python server.py
+
+The backend code sould be up and running
+
 # Distribution of work
 
 Group members
@@ -22,4 +33,5 @@ was responsible for building and testing the LSTM model to predict bitcoin futur
 Niharika Chundury
 
 was responsible for building and testing frontend code for the app, and the code is under frontend
+
 
