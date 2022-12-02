@@ -1,3 +1,6 @@
+## I was responsible for writing and testing backend/server side code
+
+
 ## Steps to run backend/server code 
 
 To run the backend code successfully, please make sure docker desktop link - https://www.docker.com/products/docker-desktop/ is avaiable in your computer
