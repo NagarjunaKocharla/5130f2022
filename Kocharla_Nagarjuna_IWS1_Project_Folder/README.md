@@ -11,15 +11,15 @@ Group members
 2. Sahithi Nallani
 3. Niharika Chundury
 
-1. Nagarjuna Kocharla
+Nagarjuna Kocharla
 
 I was responsible for writing the backend code for the app, all the code written by me is under backend directory, apart from prediction_model.py, with instructions and comments in the code
 
-2. Sahithi Nallani 
+Sahithi Nallani 
 
 was responsible for building and testing the LSTM model to predict bitcoin future price, and the code is under backend in prediction_model.py
 
-3. Niharika Chundury
+Niharika Chundury
 
 was responsible for building and testing frontend code for the app, and the code is under frontend
 
