@@ -7,13 +7,13 @@ Note - please go to backend, and run the backend code first before running the f
 ## Steps to run/build app
 
 ## Steps to run backend/server code
-To run the backend code successfully, please make sure docker desktop link - https://www.docker.com/products/docker-desktop/ is avaiable in your computer docker is installed link - https://docs.docker.com/desktop/install/windows-install/.
+To run the backend code successfully, please make sure docker desktop is installed link - https://www.docker.com/products/docker-desktop/ is avaiable in your computer and also check if docker is installed link - https://docs.docker.com/desktop/install/windows-install/.
 
 Once, this is done please do to backend directory and run docker compose up -d
 
 Now in the backend directory, please run python server.py
 
-The backend code sould be up and running
+The backend code should be up and running
 
 ## Steps to run the frontend
 Please go to the frontend directory and run npm start,it'll get start in locahost or open http://localhost:3000 to view it in your browser.
