@@ -12,16 +12,26 @@ Changes made between the project submission on Friday Dec 02 2022 and Dec 06 202
 
 ## Steps to run/build app
 
-## Steps to run backend/server code
-To run the backend code successfully, please make sure docker desktop is installed link - https://www.docker.com/products/docker-desktop/ is avaiable in your computer and also check if docker is installed link - https://docs.docker.com/desktop/install/windows-install/.
+Steps to run backend/server code
 
-Once, this is done please do to backend directory and run docker compose up -d
+1. Please run pip -r requirements.txt from the backend directory location, to install all backend related libraries
 
-Now in the backend directory, please run python server.py
+2. In order for the LSTM Deep Leaning model to work, please run python prediction_model.py from the backend directory. This will take about 10 minutes to run and build the model.
 
-The backend code should be up and running
+3. To save time, i packaged the model in model.pkl and wrote an endpoint in server.py to get predictions of bitcoin, you may directly continue with the below steps(skipping step 2) if need be.
+
+4. To run the backend code successfully, please make sure docker desktop link - https://www.docker.com/products/docker-desktop/ is avaiable in your computer and docker is installed link - https://docs.docker.com/desktop/install/windows-install/.
+
+5. If docker installation is a problem, i also hosted our database storage on AWS as a secondary option, for things to run smoothly, my server side code in my project submission connects to aws database instead of docker. But connection to docker is also included in the code, so please free to connect to either (i put the connection to docker container database in comments in the server.py code)
+
+6. only if using docker - please do to backend directory and run docker compose up -d
+
+7. Now in the backend directory, please run python server.py
+
+The backend code sould be up and running
 
 ## Steps to run the frontend
+
 Please go to the frontend directory and run npm start,it'll get start in locahost or open http://localhost:3000 to view it in your browser.
 
 npm start
