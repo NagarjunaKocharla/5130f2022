@@ -6,10 +6,11 @@ Note - please go to backend, and run the backend code, following the steps to ru
 
 Changes made between the project submission on Friday Dec 02 2022 and Dec 06 2022
 
-1. As mentioned in my report, i have now completed adding an endpoint for getting predictions, the LSTM model was built by my group mate sahithi. The endpoint takes bitcoin data as input gives it to the LSTM model and forcasts bitcoin market outlook into the future(Untill 100 days from now)
-2. The forcast can now be accessed via forecast button in the frontend code
-3. Niharika changed the background color for the porfolio analysis button
+1. Sahithi - Improved the already built LSTM model to train on recent data which forcasts bitcoin market outlook from the historic bitcoin data it was run on. Ran the model with different hyperparameters before fixating on one.
 
+2. Arjun - Added the endpoints for getting predictions and integrated the model to the backend server code. Moved the docker code to AWS platform and updated the corresponding backend code.
+
+3. Neeharika - Added a forecast button which displays the graph of future bitcoin prices (with the json data from the new API)and some UI modifications.
 ## Steps to run/build app
 
 Steps to run backend/server code
