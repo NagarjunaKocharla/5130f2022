@@ -2,7 +2,13 @@
 
 # DCrypt-A-CryptoCurrency-Tracking-and-Visualization-Application
 
-Note - please go to backend, and run the backend code first before running the frontend for the app to connect to the database properly, thank you
+Note - please go to backend, and run the backend code, following the steps to run in readme under backend directory first before running the frontend for the app to connect to the database properly, thank you
+
+Changes made between the project submission on Friday Dec 02 2022 and Dec 06 2022
+
+1. As mentioned in my report, i have now completed adding an endpoint for getting predictions, the LSTM model was built by my group mate sahithi. The endpoint takes bitcoin data as input gives it to the LSTM model and forcasts bitcoin market outlook into the future(Untill 100 days from now)
+2. The forcast can now be accessed via forecast button in the frontend code
+3. Niharika changed the background color for the porfolio analysis button
 
 ## Steps to run/build app
 
