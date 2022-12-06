@@ -30,16 +30,19 @@ Steps to run backend/server code
 
 The backend code sould be up and running
 
-## Steps to run the frontend
+# Steps to run the project frontend
 
-Please go to the frontend directory and run npm start,it'll get start in locahost or open http://localhost:3000 to view it in your browser.
+1. Please go to the frotnend directory, and run "npm install" to install add the needed packages
 
+2. Please go to the frontend directory and run npm start,it'll get start in locahost or open http://localhost:3000 to view it in your browser.
 npm start
-The app can be deployed to production using the command npn run build, but for testing npm start is sufficient
+
+3. The app can be deployed to production using the command npn run build, but for testing npm start is sufficient
 
 To learn React, check out the React documentation.
 
 Deployment
+
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 # Distribution of work
