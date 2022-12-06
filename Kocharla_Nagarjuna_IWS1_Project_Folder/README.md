@@ -28,7 +28,7 @@ Steps to run backend/server code
 
 7. Now in the backend directory, please run python server.py
 
-The backend code sould be up and running
+The backend code should be up and running
 
 # Steps to run the project frontend
 
