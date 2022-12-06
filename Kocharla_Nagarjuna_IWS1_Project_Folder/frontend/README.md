@@ -1,6 +1,6 @@
 ## Steps to run the project frontend
 
-1. Please go to the frotnend directory, and run "npm install" to install aoo the needed packages
+1. Please go to the frotnend directory, and run "npm install" to install add the needed packages
 
 2. Please go to the frontend directory and run npm start,it'll get start in locahost
 or open [http://localhost:3000](http://localhost:3000) to view it in your browser.
