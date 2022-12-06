@@ -16,6 +16,6 @@ and docker is installed link - https://docs.docker.com/desktop/install/windows-i
 
 only if using docker -  please do to backend directory and run docker compose up -d
 
-3. Now in the backend directory, please run python server.py
+6. Now in the backend directory, please run python server.py
 
-4. The backend code sould be up and running
+7. The backend code sould be up and running
