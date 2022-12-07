@@ -1,4 +1,8 @@
-## The Below Code was developed by Nagarjuna Kocharla (Me) , the code contains API endpoints to get transactions,
+## Author - Nagarjuna Kocharla
+
+## Purpose
+
+## The Below Code was developed by Nagarjuna Kocharla, the code contains API endpoints to get transactions,
 ## post transactions, delete transactions, get total value of coins, get total coins, get total value of coins and get total value of coins.
 
 ## the code is written in python using flask API and endpoints were tested using Insomnia API testing tool. In the process of developing the code,
