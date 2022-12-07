@@ -32,9 +32,9 @@ Steps to run backend/server code
 
 3. To save time, i packaged the model in model.pkl and wrote an endpoint in server.py to get predictions of bitcoin, you may directly continue with the below steps(skipping step 2) if need be.
 
-4. To run the backend code successfully, please make sure docker desktop link - https://www.docker.com/products/docker-desktop/ is avaiable in your computer and docker is installed link - https://docs.docker.com/desktop/install/windows-install/.
+4. Optional - To run the backend code successfully, please make sure docker desktop link - https://www.docker.com/products/docker-desktop/ is available in your computer and docker is installed link - https://docs.docker.com/desktop/install/windows-install/.
 
-5. If docker installation is a problem, i also hosted our database storage on AWS as a secondary option, for things to run smoothly, my server side code in my project submission connects to aws database instead of docker. But connection to docker is also included in the code, so please free to connect to either (i put the connection to docker container database in comments in the server.py code)
+5. Docker installation can be problematic and might take time, to make the process quick, i also hosted our database storage on AWS as a secondary option, for things to run smoothly, my server side code in my project submission connects to aws database instead of docker. But connection to docker is also included in the code, so please free to connect to either (i put the connection to docker container database in comments in the server.py code)
 
 6. only if using docker - please do to backend directory and run docker compose up -d
 
