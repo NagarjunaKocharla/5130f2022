@@ -2,7 +2,10 @@
 
 # DCrypt-A-CryptoCurrency-Tracking-and-Visualization-Application
 
-I wrote the IWS Personal Porject report and submitted ot on Friday Dec 2, And mentioned all the improvements to be made. And put the latest image and progress of our application. I request you to please refer to the report titled Kocharla_Nagarjuna_IWS1_Personal_Report where i mentioned the flow/functionality and progress of or application, along with future work, Thank you
+# This README file contains improvements made between project submission on Dec 02 and Project Show and Tell on Dec 06, steps to run code, distribution of workload.
+# the report for the IWS1 project is in the link submitted during final project submission as mentioned right below
+
+I wrote the IWS Personal Project report and submitted it on Friday Dec 2. And put the latest current progress of our application. I request you to please refer to the report titled Kocharla_Nagarjuna_IWS1_Personal_Report where i mentioned my role and work in the project, flow/functionality and progress of our application, along with future work, Thank you
 
 
 Changes made between the project submission on Friday Dec 02 2022 and Dec 06 2022
