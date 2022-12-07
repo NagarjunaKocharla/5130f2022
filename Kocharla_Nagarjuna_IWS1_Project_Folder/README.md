@@ -14,7 +14,7 @@ Changes made between the project submission on Friday Dec 02 2022 and Dec 06 202
 3. Neeharika - Added a forecast button which displays the graph of future bitcoin prices (with the json data from the new API)and some UI modifications.
 ## Steps to run/build app
 
-##Steps to run backend/server code
+#Steps to run backend/server code
 
 1. Please run pip -r requirements.txt from the backend directory location, to install all backend related libraries
 
@@ -32,9 +32,9 @@ Changes made between the project submission on Friday Dec 02 2022 and Dec 06 202
 
 The backend code should be up and running
 
-## Steps to run the project frontend
+## Steps to run the frontend code(has to be done after running backend code)
 
-1. Please go to the frotnend directory, and run "npm install" to install add the needed packages
+1. Please go to the frontend directory, and run "npm install" to install add the needed packages
 
 2. Please go to the frontend directory and run npm start,it'll get start in locahost or open http://localhost:3000 to view it in your browser.
 npm start
