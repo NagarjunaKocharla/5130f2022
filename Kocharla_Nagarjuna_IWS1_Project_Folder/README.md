@@ -26,13 +26,13 @@ I wrote the IWS Personal Project report and submitted it on Friday Dec 2. And pu
 
 Steps to run backend/server code
 
-1. Please run pip -r requirements.txt from the backend directory location, to install all backend related libraries
+1. Please run pip -r requirements.txt from the backend directory location, to install all backend related libraries. If this command does not work, please run pip freeze > requirements.txt and then run pip -r requirements.txt
 
-2. In order for the LSTM Deep Leaning model to work, please run python prediction_model.py from the backend directory. This will take about 10 minutes to run and build the model.
+2. In order for the LSTM Deep Learning model to work, please run python prediction_model.py from the backend directory. This will take about 10 minutes to run and build the model.
 
 3. To save time, i packaged the model in model.pkl and wrote an endpoint in server.py to get predictions of bitcoin, you may directly continue with the below steps(skipping step 2) if need be.
 
-4. Optional - To run the backend code successfully, please make sure docker desktop link - https://www.docker.com/products/docker-desktop/ is available in your computer and docker is installed link - https://docs.docker.com/desktop/install/windows-install/.
+4. Optional - To run the backend code successfully, please make sure docker desktop link - https://www.docker.com/products/docker-desktop/ is available in your computer and docker is installed link - https://docs.docker.com/desktop/install/windows-install/. And finally run docker pull postgres
 
 5. Docker installation can be problematic and might take time, to make the process quick, i also hosted our database storage on AWS as a secondary option, for things to run smoothly, my server side code in my project submission connects to aws database instead of docker. But connection to docker is also included in the code, so please free to connect to either (i put the connection to docker container database in comments in the server.py code)
 
@@ -44,10 +44,10 @@ The backend code should be up and running
 
 Steps to run the frontend code(has to be done after running backend code)
 
-1. Please go to the frontend directory, and run "npm install" to install add the needed packages
+1. Please go to the frontend directory, and run "npm install" to install all the needed packages
 
-2. Please go to the frontend directory and run npm start,it'll get start in locahost or open http://localhost:3000 to view it in your browser.
-npm start
+2. Please go to the frontend directory and run npm start,it'll get start in localhost or open http://localhost:3000 to view it in your browser.
+
 
 3. The app can be deployed to production using the command npn run build, but for testing npm start is sufficient
 
