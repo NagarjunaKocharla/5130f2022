@@ -9,8 +9,7 @@ from datetime import datetime
 from dataclasses import dataclass
 import datetime
 
-buy = 1
-sell = 0
+
 
 
 @dataclass(frozen=True)
