@@ -1,5 +1,8 @@
 ## The Below Code was developed by Nagarjuna Kocharla (Me) , the code contains logic to convert  insert entry to transaction, a
 ## and the function is given to server.py
+
+##State : Modified the code from "https://github.com/irtiza07/crypto-portfolio-visualization"
+    
 from datetime import datetime
 from dataclasses import dataclass
 import datetime
