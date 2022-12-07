@@ -7,6 +7,8 @@
 ## by my team mate Sahithi Nallani using LSTM
 ## The endpoints from this code will be used by My Other team mate Niharika Chundury to develop the frontend of the application using React JS
 
+## State : Modified the code from "https://github.com/irtiza07/crypto-portfolio-visualization"
+
 ## Update: I added another API endpoint called get_predictions, from the model developed by Sahithi Nallani, and the data from the endpoint is fed to the frontend code.
 ## Path: Kocharla_Nagarjuna_IWS1_Project_Folder\backend\server.py
 
