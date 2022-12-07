@@ -2,22 +2,29 @@
 
 # DCrypt-A-CryptoCurrency-Tracking-and-Visualization-Application
 
-# This README file contains improvements made between project submission on Dec 02 and Project Show and Tell on Dec 06, steps to run code, distribution of workload.
-# the report for the IWS1 project is in the link submitted during final project submission as mentioned right below
+# This README file contains the following
 
-I wrote the IWS Personal Project report and submitted it on Friday Dec 2. And put the latest current progress of our application. I request you to please refer to the report titled Kocharla_Nagarjuna_IWS1_Personal_Report (link -https://github.com/NagarjunaKocharla/5130f2022/blob/main/Kocharla_Nagarjuna_IWS1_Project_Folder/Kocharla_Nagarjuna_IWS1_Project__Personal_Report.pdf) where i mentioned my role and work in the project, flow/functionality and progress of our application, along with future work, Thank you
+1. improvements made between project submission on Dec 02 and Project Show and Tell on Dec 06.
+2. steps to run code, 
+3. distribution of workload.
 
 
-Changes made between the project submission on Friday Dec 02 2022 and Dec 06 2022
+# Quick Note  
+I wrote the IWS Personal Project report and submitted it on Friday Dec 2. And put the latest current progress of our application. I request you to    please refer to the report titled Kocharla_Nagarjuna_IWS1_Personal_Report (link -https://github.com/NagarjunaKocharla/5130f2022/blob/main/Kocharla_Nagarjuna_IWS1_Project_Folder/Kocharla_Nagarjuna_IWS1_Project__Personal_Report.pdf) where i mentioned my role and work in the project, flow/functionality and progress of our application, along with future work, Thank you
+
+
+#  1. Changes made between the project submission on Friday Dec 02 2022 and Dec 06 2022
 
 1. Sahithi - Improved the already built LSTM model to train on recent data which forcasts bitcoin market outlook from the historic bitcoin data it was run on. Ran the model with different hyperparameters before fixating on one.
 
 2. Arjun - Added the endpoints for getting predictions and integrated the model to the backend server code. Moved the docker code to AWS platform and updated the corresponding backend code.
 
 3. Neeharika - Added a forecast button which displays the graph of future bitcoin prices (with the json data from the new API)and some UI modifications.
-## Steps to run/build app
 
-#Steps to run backend/server code
+
+# 2. Steps to run/build app
+
+Steps to run backend/server code
 
 1. Please run pip -r requirements.txt from the backend directory location, to install all backend related libraries
 
@@ -35,7 +42,7 @@ Changes made between the project submission on Friday Dec 02 2022 and Dec 06 202
 
 The backend code should be up and running
 
-## Steps to run the frontend code(has to be done after running backend code)
+Steps to run the frontend code(has to be done after running backend code)
 
 1. Please go to the frontend directory, and run "npm install" to install add the needed packages
 
@@ -50,7 +57,7 @@ Deployment
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-# Distribution of work
+# 3. Distribution of work
 
 Group members
 1. Nagarjuna Kocharla
