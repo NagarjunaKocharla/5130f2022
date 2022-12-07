@@ -2,7 +2,8 @@
 
 # DCrypt-A-CryptoCurrency-Tracking-and-Visualization-Application
 
-Note - please go to backend, and run the backend code, following the steps to run in readme under backend directory first before running the frontend for the app to connect to the database properly, thank you
+I wrote the IWS Personal Porject report and submitted ot on Friday Dec 2, And mentioned all the improvements to be made. And put the latest image and progress of our application. I request you to please refer to the report titled Kocharla_Nagarjuna_IWS1_Personal_Report where i mentioned the flow/functionality and progress of or application, along with future work, Thank you
+
 
 Changes made between the project submission on Friday Dec 02 2022 and Dec 06 2022
 
@@ -13,7 +14,7 @@ Changes made between the project submission on Friday Dec 02 2022 and Dec 06 202
 3. Neeharika - Added a forecast button which displays the graph of future bitcoin prices (with the json data from the new API)and some UI modifications.
 ## Steps to run/build app
 
-Steps to run backend/server code
+##Steps to run backend/server code
 
 1. Please run pip -r requirements.txt from the backend directory location, to install all backend related libraries
 
@@ -31,7 +32,7 @@ Steps to run backend/server code
 
 The backend code should be up and running
 
-# Steps to run the project frontend
+## Steps to run the project frontend
 
 1. Please go to the frotnend directory, and run "npm install" to install add the needed packages
 
