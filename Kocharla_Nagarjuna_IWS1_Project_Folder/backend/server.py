@@ -37,6 +37,13 @@ price_url = "https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd"
 postgreSQL_pool = pool.SimpleConnectionPool(
     1,600,database="postgres", user="docker", password="docker1234", host="cryptodb.cb0o6zu61rpk.us-east-1.rds.amazonaws.com")
 
+#Below is the connection for connecting to a docker database if you have docker installed, please go through the readme
+
+#postgreSQL_pool = pool.SimpleConnectionPool(
+ #   1,600,database="cryptodb", user="docker", password="docker", host="127.0.0.1")
+
+
+
 
 
 
@@ -215,26 +222,22 @@ def get_prediction():
     
 
     model = pickle.load(open('model.pkl','rb'))
-#import time
+
 
     from datetime import datetime
-#import datetime
+
     from datetime import timedelta
 
-#from datetime import date
+
 
 
     from sklearn.preprocessing import MinMaxScaler
-#start = datetime.datetime.now()
 
-#today = date.today()
-#print("Today's date:", today)
 
-#diff = timedelta(days=5)
-#end = start + diff
-#start = start.strftime('%Y-%m-%d')
 
-#end = end.strftime('%Y-%m-%d')
+
+
+
 
     start = datetime(2022,5,5)
     en = datetime.now().date()
@@ -243,22 +246,10 @@ def get_prediction():
     end = en.strftime('%Y-%m-%d')
 
 
-#start = start.strftime('%Y-%m-%d')
-    
 
 
 
-    #end = datetime(2023,2,25)
 
-
-#end = end.strftime('%Y-%m-%d')
-    
-
-
-#end = datetime.now().date()
-#td = timedelta(days=100)
-#endd = end + td
-#end = datetime(2020,1,1).date().isoformat()
     symbol ='BTC-USD'
     df = yf.download(symbol,start=start,end=end)
 
@@ -266,7 +257,7 @@ def get_prediction():
 
     
     data = df.copy()
-#data_test = data[data['Date']< '2020-01-01'].copy()
+
     data_test = data.drop(['Adj Close'], axis = 1)
     data_test.index = pd.to_datetime(data_test.index)
 
@@ -293,14 +284,10 @@ def get_prediction():
     X_test = X_test*scale
     Y_pred = Y_pred*scale
     print(Y_pred)
- #   dates = pd.date_range('5/5/2022', 
-   #                       periods=6,
-    #                      freq='m')
-  #  figure, axes = plt.subplots(figsize=(10, 6))
-    #axes.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+ 
     plt.figure(figsize=(20,5))
 
-    #axes.plot(dates, Y_pred, color = 'green', label = 'Bitcoin Price Forecasting')
+    
     
     plt.plot(Y_pred, color = 'green', label = 'Bitcoin Price Forecasting')
     plt.title('Bitcoin Potential Market Outlook using RNN-LSTM')
