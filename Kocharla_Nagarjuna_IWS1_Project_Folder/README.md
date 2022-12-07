@@ -5,7 +5,7 @@
 # This README file contains improvements made between project submission on Dec 02 and Project Show and Tell on Dec 06, steps to run code, distribution of workload.
 # the report for the IWS1 project is in the link submitted during final project submission as mentioned right below
 
-I wrote the IWS Personal Project report and submitted it on Friday Dec 2. And put the latest current progress of our application. I request you to please refer to the report titled Kocharla_Nagarjuna_IWS1_Personal_Report where i mentioned my role and work in the project, flow/functionality and progress of our application, along with future work, Thank you
+I wrote the IWS Personal Project report and submitted it on Friday Dec 2. And put the latest current progress of our application. I request you to please refer to the report titled Kocharla_Nagarjuna_IWS1_Personal_Report (link -https://github.com/NagarjunaKocharla/5130f2022/blob/main/Kocharla_Nagarjuna_IWS1_Project_Folder/Kocharla_Nagarjuna_IWS1_Project__Personal_Report.pdf) where i mentioned my role and work in the project, flow/functionality and progress of our application, along with future work, Thank you
 
 
 Changes made between the project submission on Friday Dec 02 2022 and Dec 06 2022
