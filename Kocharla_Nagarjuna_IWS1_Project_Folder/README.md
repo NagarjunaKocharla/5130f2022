@@ -26,19 +26,21 @@ I wrote the IWS Personal Project report and submitted it on Friday Dec 2. And pu
 
 Steps to run backend/server code
 
-1. Please run pip -r requirements.txt from the backend directory location, to install all backend related libraries. If this command does not work, please run pip freeze > requirements.txt and then run pip -r requirements.txt
+1. From the backend directory please run 1. pip install -U flask-cors 2. pip install psycopg2-binary . This will install postgres and flask libraries
 
-2. In order for the LSTM Deep Learning model to work, please run python prediction_model.py from the backend directory. This will take about 10 minutes to run and build the model.
+2. Please run pip -r requirements.txt from the backend directory location, to install all backend related libraries. If this command does not work or you get packages not present errors when running step 8, please run pip freeze > requirements.txt and then run pip -r requirements.txt
 
-3. To save time, i packaged the model in model.pkl and wrote an endpoint in server.py to get predictions of bitcoin, you may directly continue with the below steps(skipping step 2) if need be.
+3. In order for the LSTM Deep Learning model to work, please run python prediction_model.py from the backend directory. This will take about 10 minutes to run and build the model.
 
-4. Optional - To run the backend code successfully, please make sure docker desktop link - https://www.docker.com/products/docker-desktop/ is available in your computer and docker is installed link - https://docs.docker.com/desktop/install/windows-install/. And finally run docker pull postgres
+4. To save time, i packaged the model in model.pkl and wrote an endpoint in server.py to get predictions of bitcoin, you may directly continue with the below steps(skipping step 2) if need be.
 
-5. Docker installation can be problematic and might take time, to make the process quick, i also hosted our database storage on AWS as a secondary option, for things to run smoothly, my server side code in my project submission connects to aws database instead of docker. But connection to docker is also included in the code, so please free to connect to either (i put the connection to docker container database in comments in the server.py code)
+5. Optional - To run the backend code successfully, please make sure docker desktop link - https://www.docker.com/products/docker-desktop/ is available in your computer and docker is installed link - https://docs.docker.com/desktop/install/windows-install/. And finally run docker pull postgres
 
-6. only if using docker - please do to backend directory and run docker compose up -d
+6. Docker installation can be problematic and might take time, to make the process quick, i also hosted our database storage on AWS as a secondary option, for things to run smoothly, my server side code in my project submission connects to aws database instead of docker. But connection to docker is also included in the code, so please free to connect to either (i put the connection to docker container database in comments in the server.py code)
 
-7. Now in the backend directory, please run python server.py
+7. only if using docker - please do to backend directory and run docker compose up -d
+
+8. Now in the backend directory, please run python server.py
 
 The backend code should be up and running
 
