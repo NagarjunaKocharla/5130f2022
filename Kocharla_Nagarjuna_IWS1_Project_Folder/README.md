@@ -32,7 +32,9 @@ Steps to run backend/server code
 
 3. In order for the LSTM Deep Learning model to work, please run python prediction_model.py from the backend directory. This will take about 10 minutes to run and build the model.
 
-4. To save time, i packaged the model in model.pkl and wrote an endpoint in server.py to get predictions of bitcoin, you may directly continue with the below steps(skipping step 2) if need be.
+4. To save time, i packaged the model in model.pkl and wrote an endpoint in server.py to get predictions of bitcoin, you may directly continue with the below steps(skipping step 3) if need be.
+
+steps 5,6,7 only if user intends to try docker, please go to step 8 if not needed
 
 5. Optional - To run the backend code successfully, please make sure docker desktop link - https://www.docker.com/products/docker-desktop/ is available in your computer and docker is installed link - https://docs.docker.com/desktop/install/windows-install/. And finally run docker pull postgres
 
